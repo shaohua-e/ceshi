@@ -24,6 +24,13 @@ git add . (添加所有文件)
 ```
 git commit -m "****"
 ```
+## 对比代码
+默认是工作区和暂存区
+```
+git diff
+
+git diff --cached  暂存区和历史区比
+```
 
 
 
