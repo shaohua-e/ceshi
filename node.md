@@ -80,9 +80,30 @@ new respository
 - 本地要建
 
 
+```
+git log --grep=me 搜索备注为me的
+git log --author=zhufeng 搜索作者为珠峰提交的
+```
 
+- 命令行里创建一个包含内容的文件(>> 表示增加内容, > 会覆盖原来的文件)
+```
+echo ".idea" >> .gitignore
+```
 
+- 连接远程地址
+```
+git add
+git commit -m ""
+git remote add origin <url>
+git remote -v 查看所有关联
+git remote rm <name>
 
+```
 
+- 推到远程地址
+```
+git push origin master -u (upstream下次提交不必再输入origin master)
+git push origin master
+```
 
 
