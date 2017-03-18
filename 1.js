@@ -1,1 +1,1 @@
-console.log(2232);
+console.log("dev");
