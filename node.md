@@ -1,6 +1,6 @@
 ## 查看
 ```
-ls -all 显示所有隐藏文件
+ls -al 查看所有文件
 ```
 ## 创建文件
 ```
@@ -30,18 +30,46 @@ git commit -m "****"
 git diff
 
 git diff --cached  暂存区和历史区比
+
+git diff master(分支名) 工作区和历史区
+```
+## git checkout 文件名
+```
+从暂存区拉回到工作区
+```
+## 回滚
+```
+git log 看当前以及之前的日志
+git reset --hard 版本号
+
+git reflog 看所有的日志
 ```
 
-
-
-
-
-
-
-
-
-
-
+### 分支管理
+- 查看分支
+```
+git branch
+```
+- 创建分支
+```
+git branch <branchName>
+```
+- 切换分支
+```
+git checkout <branchName>
+```
+- 删除分支(不能自己删除自己)
+```
+git branch -D <branchName>
+```
+- 创建并切换分支(相当于在当前分支的基础上复制一份)
+```
+git checkout -b <branchName>
+```
+- 合并代码 (在当前分支上 合并<branchName>,把<branchName>的代码合并到当前分支上)
+```
+git merge <branchName>
+```
 
 
 
