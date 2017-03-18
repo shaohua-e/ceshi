@@ -11,7 +11,8 @@ cat **  查看文件内容
 vi ** 进入编辑状态
 
 编辑后 按esc退出编辑状态,
-:wq 保存退出
+esc + :wq 保存退出
+强制退出 q!
 ```
 ## 加到暂存区
 ```
@@ -71,9 +72,12 @@ git checkout -b <branchName>
 git merge <branchName>
 ```
 
-
-
-
+## 创建空仓库
+- 创建空仓库,写一个仓库名
+```
+new respository
+```
+- 本地要建
 
 
 
