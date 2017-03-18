@@ -106,4 +106,5 @@ git push origin master -u (upstream下次提交不必再输入origin master)
 git push origin master
 ```
 
-
+## 发布静态页
+- 发布的静态页必须在gh-pages
